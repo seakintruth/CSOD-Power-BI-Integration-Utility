@@ -99,3 +99,8 @@ Instead of _Power BI Desktop_, you also have the option to use _Power Query fo
 2. Make sure the API and sessionToken are active and enabled via the Edge API page.
 
 3. If you get the error: "_Expression.Error: The 'Authorization' header is only supported when connecting anonymously. These headers can be used with all authentication types: Accept, Accept-Charset, Accept-Language, Cache-Control, If-Modified-Since, Referer_" this means the OData authentication type is not set to _Anonymous_. To modify the setting, navigate to File &gt; Options and settings &gt; Data source settings. Find your data source URL from the list, click **Edit**, edit the credential type to be _Anonymous_, and click **Done**.  Try again.
+
+
+
+# See API help at:
+https://help.csod.com/help/csod_0/Content/Edge/Integration_Center/Edge_-_API_Explorer.htm
